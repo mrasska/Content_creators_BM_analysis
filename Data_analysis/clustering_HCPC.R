@@ -5,8 +5,7 @@ library(questionr)
 require(factoextra)
 
 ### Loading data
-db_clustetring <- read_delim("C:/Users/maria.rasskazova/Dropbox/Doctorat/Chapitre 1/db_clustetring.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE)
-#db_clustetring <- read_delim("D:/Dropbox/Doctorat/Chapitre 1/db_clustetring.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE)
+db_clustetring <- #path
 
 
 ####### MCA
@@ -55,8 +54,8 @@ clust_3=res.hcpc$data.clust$clust
 
 
 ####### Adding clusters variable in econometric file
-db_econometrics <- read_delim("D:/Dropbox/Doctorat/Chapitre 1/db_econometrics.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE)
+db_econometrics <- #path
 db_econometrics['cluster_3']<-clust_3
 db_econometrics['cluster_5']<-clust_5
 
-write.csv2(db_econometrics,file='D:/Dropbox/Doctorat/Chapitre 1/db_econometrics_cluster.csv',fileEncoding = "UTF-8")
+write.csv2(db_econometrics,file='path',fileEncoding = "UTF-8")
