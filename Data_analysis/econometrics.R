@@ -2,8 +2,7 @@ library(readr)
 library(nnet)
 library(stargazer)
 
-#db_econometrics <- read_delim("D:/Dropbox/Doctorat/Chapitre 1/db_econometrics_cluster.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE)
-db_econometrics <- read_delim("C:/Users/maria.rasskazova/Dropbox/Doctorat/Chapitre 1/db_econometrics_cluster.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE)
+db_econometrics <- #path
 
 #Setting variables as factors
 db_econometrics$A6 <-as.factor(db_econometrics$A6)
