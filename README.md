@@ -12,8 +12,6 @@ This article examines the organisation of French online content creation through
 
 
 ## Presentation of the files
-**Data_check.ipynb:** to check the consistency of participants answers to the survey. </p>
-**Clustering_selection.ipynb:** selecting variables for clustering. </p>
-**clustering_HCPC.R:**  computing hierarchical classification on principal components (HCPC). </p>
-**Econometrics_selection.ipynb:** selecting variables for multinomial regressions. </p>
-**econometrics.R** gathers all the variables coding for the ordered logistic regression. *(The econometric analysis is performed on Stata MP.)*
+### 1. To collect creators' contact info
+
+### 2. To clean the creators' response to our survey
