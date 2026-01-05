@@ -12,6 +12,11 @@ This article examines the organisation of French online content creation through
 
 
 ## Presentation of the files
-### 1. To collect creators' contact info
+### 1. To collect YouTube creators' contact info
+In this paper, we study the production and monetisation strategies of content creators active on Twitch and YouTube. Despite offering similar services to its users, the two platforms do not provide similar access to data through its API. Information collection was done manually on Twitch, while we could automate the process with YouTube's API. 
+
+For **Twitch**, we gathered information on active French-speaking creators on Twitch through a manual collection. Content creators on Twitch can specify the language of their broadcasts with specific tags under the livestream and VOD, by indicating it in the stream settings (‘stream manager’). To identify French-speaking producers, we looked at the “French” tag section. Multiple times through the day in March 2022, we went to the online creators' channels in this section and retrieved contact details from the “Bio” section. 
+
+For **YouTube**, we created a script in Python to collect data in the “Trending” section of the website. This section lists videos that YouTube certifies as “trending” among the viewers from the same country. A variety of criteria are taken into account, such as the number of views and the publication date. This folder contains the script to retrieve emails from YouTube trending videos' descriptions. Through YouTube's API, we request the list of trending videos in France for each genre and their description. Then, we parse the description to find email addresses with a regular expression. We made additional API requests to identify which publishing channel is located in France. 
 
 ### 2. To clean the creators' response to our survey
