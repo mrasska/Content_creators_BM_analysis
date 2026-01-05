@@ -1,5 +1,4 @@
 # Creators’ economy: a study of content creation and monetisation strategies on YouTube and Twitch
-***This ReadMe file is still under construction***
 
 This repository gathers all the scripts created for the first chapter of my doctoral dissertation. The latter was submitted to the [Review of Industrial Economics](https://journals.openedition.org/rei/). The scripts are grouped per analytical purpose: 
 1) to collect creators' contact info; 
