@@ -62,5 +62,6 @@ write.csv2(db_econometrics,file='file_path',fileEncoding = "UTF-8")
 db_raw <- read_delim("file_path", delim = ";", escape_double = FALSE, trim_ws = TRUE)
 
 db_raw['cluster_3']<-clust_3
-write.csv2(db_raw,file='D:/Dropbox/Doctorat/Chapitre 1/database_cleaned_cluster.csv',fileEncoding = "UTF-8")
+write.csv2(db_raw,file='file_path',fileEncoding = "UTF-8")
+
 
